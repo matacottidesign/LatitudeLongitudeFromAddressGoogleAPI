@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <title>Test Google API</title>
+    </head>
+
+
+
+    <body>
+        <textarea id="txtAddress" rows="3" cols="25"></textarea>
+        <input type="button" onclick="GetLocation()" value="Get Location" />
+        <!-- <input type="button" onclick="GetLocationFromExcel()" value="Get Location from Excel" /> -->
+        <hr>
+        <input type="file" id="uploadFile" accept=".csv">
+        <input type="button" id="test" value="Leggi CSV" />
+
+        <!--Google API-->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh6iasiGlkrQLoICqZBXxU2V_XdbC74xg"></script>
+        <!--jQuery CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--Papaparse CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js" integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--Custom Javascript-->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
