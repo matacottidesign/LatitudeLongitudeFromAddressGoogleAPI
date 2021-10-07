@@ -3,7 +3,7 @@ function GetLocation() {
     var geocoder = new google.maps.Geocoder();
     var address = arrIndirizzi[arrIndirizzi.length - 1]; //Last item of arrIndirizzi[]
 
-    //Google Geocoding API
+    //Google Geocode API
     geocoder.geocode( { 'address': address}, function(results, status) {
 
         if (status == google.maps.GeocoderStatus.OK) {
